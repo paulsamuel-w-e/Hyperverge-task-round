@@ -12,6 +12,7 @@ This repository contains my submission for the **Hyperverge Placement Task Round
 
 ## 📁 Repository Structure
 
+```plaintext
 Hyperverge-task-round/
 ├── phase1/
 │   ├── phase1_final_model.pth
@@ -25,6 +26,7 @@ Hyperverge-task-round/
 │   └── Trial Benchmarks/
 │       ├── previous_label_encoder.pkl
 │       └── previous_model.pts
+```
 
 
 ---
