@@ -12,7 +12,19 @@ This repository contains my submission for the **Hyperverge Placement Task Round
 
 ## 📁 Repository Structure
 
-Hyperverge-task-round/ ├── phase1/ │   ├── phase1_final_model.pth │   ├── phase1_label_encoder.pkl │   ├── phase1_prediction.csv ├── phase2/ │   ├── phase2_final_model.pth │   ├── phase2_label_encoder.pkl │   ├── phase2_prediction.csv
+Hyperverge-task-round/
+├── phase1/
+│   ├── phase1_final_model.pth
+│   ├── phase1_label_encoder.pkl
+│   ├── phase1_prediction.csv
+│
+├── phase2/
+│   ├── phase2_final_model.pth
+│   ├── phase2_label_encoder.pkl
+│   ├── phase2_prediction.csv
+│   └── Trial Benchmarks/
+│       ├── previous_label_encoder.pkl
+│       └── previous_model.pts
 
 
 ---
