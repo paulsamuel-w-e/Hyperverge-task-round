@@ -74,13 +74,13 @@ In this phase, I used both labeled and unlabeled data with a semi-supervised lea
 The following were experimented with but **not used in the final model**:
 - ❌ Focal Loss
 - ❌ EMA (Exponential Moving Average)
-- ❌ L2 Regularization
-- ❌ Weighted Loss via frequency balancing
 
 ### 📈 Final Result
 
 - **Final Accuracy**: **71.72%**
 - Model saved as: `phase2_final_model.pth`
+- other accuracy bench marks:
+69%, 66%, 61%, 70.5%
 
 ---
 
@@ -101,7 +101,7 @@ The following were experimented with but **not used in the final model**:
 
 | Phase  | Methodology                        | Accuracy  |
 |--------|-------------------------------------|-----------|
-| 1️⃣     | Supervised (ResNet-18 + Class Weight) | 17%       |
+| 1️⃣     | Supervised (ResNet-18 + Class Weight) | 17.x%       |
 | 2️⃣     | FixMatch + Class Weight + Rotation Correction | **71.72%** |
 
 ---
